@@ -17,7 +17,6 @@ ping = st.results.ping
 
 # Print results
 print(f"Best Server:     {best_server['host']} ({best_server['name']}, {best_server['country']})")
-print(f"Server IP:       {best_server['ip']}")
 print(f"Download Speed:  {download_speed:.2f} Mbps")
 print(f"Upload Speed:    {upload_speed:.2f} Mbps")
 print(f"Ping:            {ping:.2f} ms")
